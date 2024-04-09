@@ -1,0 +1,75 @@
+.instructions-inner p, .connectBtn , .instructions-outer, .inner-container button, .inner-container label{
+     color: black;
+}
+.outer-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.inner-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid red;
+     width: 100vw;
+}
+.connectionArea{
+     border: 2px solid #0B3954;
+     padding: 50px 75px;
+     border-radius: 15px;
+     text-align: center;
+}
+.connectBtn{
+     margin: 0 0 25px 0;
+     border: none;
+     padding: 15px;
+     background: #5cb85c;
+     color: white;
+     width: 200px;
+     border-radius: 15px;
+}
+.instructions-inner{
+     text-align: left;
+}
+.instructions-outer{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 300px;
+}
+.gearIcon{
+     color: #636363;
+     height: 30px;
+     transition: all 0.75s ease;
+     cursor: pointer;
+}
+.gearIcon:hover{
+     transform: rotate(360deg) scale(1.5);
+     color: #3b3b3b;
+}
+.dropdown {
+     display: flex;
+     justify-content: center; /* Center horizontally */
+}
+
+.dropdown select {
+     border: none;
+     border-bottom: 2px solid #333;
+     width: 450px;
+     padding: 5px;
+     background-color: transparent;
+     color: #333;
+     font-size: 20px;
+}
+.dropdown select option {
+     background-color: #f8f9fa;
+     color: #333;
+     font-size: 16px;
+     padding: 5px;
+}
+
+.dropdown select option:hover {
+     background-color: #e9ecef;
+}
